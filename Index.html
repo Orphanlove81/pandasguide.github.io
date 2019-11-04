@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>The Pandas Guide to China</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- Custom styles for this template -->
+		<link href="css/carousel.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<!--<script type="text/javascript" src="js/lazyload.js"></script>-->
+		<style>
+			.bd-placeholder-img {
+				font-size: 1.125rem;
+				text-anchor: middle;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+
+			@media (min-width: 768px) {
+				.bd-placeholder-img-lg {
+					font-size: 3.5rem;
+				}
+			}
+		</style>
+
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+			<img class="nav-logo" src="img/panda-logo.jpg">
+			<a class="navbar-brand" href="#">The Pandas Guide to China</a>
+			<a class="navbar-brand mobile" href="#">The Pandas Guide</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active nav-1">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item dropdown nav-2">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teach</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown01">
+							<a class="dropdown-item" href="about-teaching-china.html">About teaching in China</a>
+							<a class="dropdown-item" href="why-teach-china.html">Why teach in China</a>
+							<a class="dropdown-item" href="#">Job Requirements</a>
+							<a class="dropdown-item" href="#">Teacher experiences</a>
+							<a class="dropdown-item" href="faqs.html">FAQs</a>
+						</div>         
+					</li>
+					<li class="nav-item dropdown nav-3">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">China</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown02">
+							<a class="dropdown-item" href="#">Cities</a>
+							<a class="dropdown-item" href="#">Polpular Destinations</a>
+							<a class="dropdown-item" href="#">History</a>
+							<a class="dropdown-item" href="#">Gallery</a>
+						</div>         
+					</li>
+					<li class="nav-item nav-4">
+						<a class="nav-link " href="#">Jobs</a>
+					</li>
+					<li class="nav-item nav-5">
+						<a class="nav-link " href="visas.html">Visas</a>
+					</li>
+					<li class="nav-item nav-6">
+						<a class="nav-link " href="apply.html">Apply</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<section id="carousel">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+	      			<!--
+	      			<li data-target="#myCarousel" data-slide-to="3"></li>
+	      			<li data-target="#myCarousel" data-slide-to="4"></li>
+	      			<li data-target="#myCarousel" data-slide-to="5"></li>
+	      			<li data-target="#myCarousel" data-slide-to="6"></li>
+	  				-->
+	      		</ol>
+		      	<div class="carousel-inner bottom-reveal-slow">
+		      		<div class="carousel-item active">
+		      			<picture>
+		      				<!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>-->
+		      				<source class="lazy" srcset="img/carousel/teachers1-375.jpg" media="(max-width: 375px)" >
+		      				<source class="lazy" srcset="img/carousel/teachers1-768.jpg" media="(max-width: 768px)" >
+		      				<source class="lazy" srcset="img/carousel/teachers1-1200x514.jpg" media="(max-width: 1200px)" >
+		      				<source class="lazy" srcset="img/carousel/teachers1-1400x514.jpg" media="(max-width: 1400px)" >	
+		      				<source class="lazy" srcset="img/carousel/teachers1-1920x902-low.jpg" media="(max-width: 1920px)" >
+		      				<img class="lazy" src="img/carousel/teachers1-new5.jpg" data-src="img/carousel/teachers1-new5.jpg" alt="">
+		      			</picture>
+		      			<!--<img src="img/carousel/teachers1-new5.jpg">-->
+						<div class="container">
+							<div class="carousel-caption text-left">
+								<h1 class="text-down"><span class="white-on-blue-text">Teach. Travel. Succeed.</span></h1>
+								<p class="text-down"><span class="blue-on-white-text">Find the job of a lifetime, make new friends, learn a new language and change your world. </span></p>
+								<p><a class="btn btn-lg btn-warning text-up" href="Teach-China.html" role="button">Teach in China</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<picture>
+							<!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>-->
+							<source class="lazy" srcset="img/carousel/great-wall44-375.jpg" media="(max-width: 375px)" >
+							<source class="lazy" srcset="img/carousel/great-wall44-768.jpg" media="(max-width: 768px)" >
+							<source class="lazy" srcset="img/carousel/great-wall44-1200x514.jpg" media="(max-width: 1200px)" >
+							<source class="lazy" srcset="img/carousel/great-wall44-1400x514.jpg" media="(max-width: 1400px)" >	
+							<source class="lazy" srcset="img/carousel/great-wall44-1920x902-low.jpg" media="(max-width: 1920px)" >
+							<img class="lazy" src="img/carousel/great-wall44.jpg" data-src="img/carousel/great-wall44-new5.jpg" alt="">
+						</picture>
+						<!--<img src="img/carousel/great-wall44.jpg">-->
+						<div class="container">
+							<div class="carousel-caption text-right">
+								<h1><span class="white-on-red-text">Have the adventure of a lifetime.</span></h1>
+								<p><span class="red-on-white-text">Experience China, an age-old land of mystery, tradition and beauty.</span></p>
+								<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+							<picture>
+								<!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>-->
+								<source class="lazy" srcset="img/carousel/travel4-375.jpg" media="(max-width: 375px)" >
+								<source class="lazy" srcset="img/carousel/travel4-768.jpg" media="(max-width: 768px)" >
+								<source class="lazy" srcset="img/carousel/travel4-1200x514.jpg" media="(max-width: 1200px)" >
+								<source class="lazy" srcset="img/carousel/travel4-1400x514.jpg" media="(max-width: 1400px)" >	
+								<source class="lazy" srcset="img/carousel/travel4-1920x902-low.jpg" media="(max-width: 1920px)" >
+								<img class="lazy" src="img/carousel/travel4.jpg" data-src="img/carousel/travel4-new5.jpg" alt="">
+							</picture>
+							<!--<img src="img/carousel/travel4.jpg">-->
+						<div class="container">
+							<div class="carousel-caption text-right">
+								<h1><span class="white-on-green-text">Flights, paperwork and visas.</span></h1>
+								<p><span class="green-on-white-text">Learn all about the necessary requirements to secure a visa to Teach English.</span></p>
+								<p><a class="btn btn-lg btn-success" href="#" role="button">Learn More</a></p>
+							</div>
+						</div>
+					</div>
+
+			      <!--
+			      <div class="carousel-item">
+			        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+			        <img src="img/kids22.jpg">
+			        <div class="container">
+			          <div class="carousel-caption text-left">
+			            <h1><span class="white-on-blue-text">Teach. Travel. Succeed.</span></h1>
+			            <p><span class="blue-on-white-text">Find the job of a lifetime, make new friends, learn a new language and change your world. </span></p>
+			            <p><a class="btn btn-lg btn-primary" href="#" role="button">Apply today for your dreamjob</a>
+			          </div>
+			        </div>
+			    	</div>-->
+			      <!--
+			      <div class="carousel-item">
+			        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+					<img src="img/great-wall44.jpg">
+			        <div class="container">
+			          <div class="carousel-caption text-right">
+			            <h1><span class="white-on-blue-text">Have the adventure of a lifetime.</span></h1>
+			            <p><span class="blue-on-white-text">Experience China, an age-old land of mystery, tradition and beauty.</span></p>
+			            <p><a class="btn btn-lg btn-warning" href="#" role="button">Browse gallery</a></p>
+			          </div>
+			        </div>
+			      </div>
+			      <div class="carousel-item">
+			        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+			        <img src="img/kids12.jpg">
+			        <div class="container">
+			          <div class="carousel-caption text-left">
+			            <h1><span class="white-on-purple-text">Why you should teach in China.</span></h1>
+			            <p><span class="purple-on-white-text">Foreign teachers in China enjoy plenty of benefits...</span></p>
+			            <p><a class="btn btn-lg btn-purple" href="#" role="button">Read more</a></p>
+			          </div>
+			        </div>
+			    	</div>-->
+			      <!--
+			      <div class="carousel-item">
+			        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+			    	<img src="img/lanterns3.jpg">
+			        <div class="container">
+			          <div class="carousel-caption text-right">
+			            <h1><span class="orange-on-black-text">A whole new World.</span></h1>
+			            <p><span class="orange-on-white-text">Immerse yourself in an unforgettable culture.</span></p>
+			            <p><a class="btn btn-lg btn-warning" href="Teach-China.html" role="button">Teach in China</a></p>
+			          </div>
+			        </div>
+			    	</div>-->
+			    	<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+				    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    	<span class="sr-only">Previous</span>
+				    </a>
+				    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+				    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    	<span class="sr-only">Next</span>
+			    	</a>
+				</div>
+			</div>
+		</section>
+
+
+	  	<!-- Marketing messaging and featurettes
+	  	================================================== -->
+	  	<!-- Wrap the rest of the page in another container to center all the content. -->
+
+	  	<div class="container marketing">
+
+	  		<!-- START THE FEATURETTES -->
+
+	  		<div class="row featurette">
+	  			<div class="col-md-7">
+	  				<h2 class="featurette-heading top"><span class="text-red">Welcome to China</span> <br> <span class="text-muted">It’ll blow your mind. </span></h2>
+	  				<h3 class="left"><span class="white-on-red-text">Woooooohoooooo!!!</span></h3><br>
+	  				<p class="lead bottom">If you love the idea of getting away and seeing the world, enjoy meeting new people and immersing yourself in a new culture, have an interest in English, want to learn a new language, make new friends and broaden your perspective of the world, why not come to China?<br><br>
+
+	  					<strong>And teach English. It’s easier than you think.</strong><br><br>
+
+	  					If this sounds like you, you may fit the criteria for teaching in China and you may be about to embark on a life-changing journey to the Middle Kingdom.<br><br>
+
+	  					You won't regret it! 
+	  				</p>
+	  				<p><a class="btn btn-primary btn-lg bottom-delay" href="#" role="button">Apply Now</a>
+	  					<a class="btn btn-lg btn-warning bottom-delay" href="Teach-China.html" role="button">Read On</a></p>
+	  				</div>
+	  				<div class="col-md-5 right">
+	  					<img src="img/travel10.jpg">
+	  					<!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
+	  				</div>
+	  			</div>
+
+	  			<hr class="featurette-divider">
+	  			
+	  			<div class="row featurette bottom-reveal">
+	  				<div class="col-md-6 order-md-2">
+	  					<h2 class="featurette-heading top"><span class="text-blue">China is Cool</span></h2><br>
+	  					<h3 class="top"><span class="text-muted">Oh yeah, it’s that good.See for yourself.</span></h3>
+	  					<h3 class="right"><span class="white-on-blue-text">Get ready for the adventure.</span></h3>
+	  					<p class="lead bottom">Why should you go to China? Discover the benefits of living and working in China.</p>
+	  					<a class="btn btn-lg btn-warning bottom-delay" href="Teach-China.html" role="button">Why China?</a>
+	  				</div>
+	  				<div class="col-md-6 order-md-1 left">
+	  					<img src="img/river5.jpg">
+	  				</div>
+	  			</div>
+
+	  			<hr class="featurette-divider">
+
+	  			<h3 class="featurette-heading top" style="text-align: center; padding-bottom: 2rem;"><span class="text-red">Some of our happy teachers</span></h3><br><br>
+	  			<section id="carousel-testimonials">
+	  				<div id="myFacesCarousel" class="carousel slide" data-ride="carousel">
+	  					<ol class="carousel-indicators">
+	  						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	  						<li data-target="#myCarousel" data-slide-to="1"></li>
+	  						<li data-target="#myCarousel" data-slide-to="2"></li>
+	  					</ol>
+	  					<div class="carousel-inner bottom-reveal-slow">
+	  						<div class="carousel-item active">
+	  							<div class="container">
+	  								<div class="row">
+	  									<div class="col-lg-4 left">
+	  										<img class="faces" src="img/faces/f6.jpg">
+	  										
+	  										<h2>Teresa</h2>
+	  										<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+	  									</div><!-- /.col-lg-4 -->
+	  									<div class="col-lg-4 bottom-delay500">
+	  										<img class="faces" src="img/faces/f4.jpg">
+	  										<h2>Tyrone</h2>
+	  										<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+	  									</div><!-- /.col-lg-4 -->
+	  									<div class="col-lg-4 right">
+	  										<img class="faces" src="img/faces/f2.jpg">
+	  										<h2>Alissa</h2>
+	  										<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+	  									</div><!-- /.col-lg-4 -->
+	  								</div><!-- /.row -->
+	  							</div>
+	  						</div>
+	  						
+	  						<div class="carousel-item">
+	  							<div class="container">
+	  								<div class="row">
+	  									<div class="col-lg-4">
+	  										<img class="faces" src="img/faces/f3.jpg">
+	  										<h2>Joseph</h2>
+	  										<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+	  									</div><!-- /.col-lg-4 -->
+	  									<div class="col-lg-4">
+	  										<img class="faces" src="img/faces/f7.jpg">
+	  										<h2>Stephanie</h2>
+	  										<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+	  									</div><!-- /.col-lg-4 -->
+	  									<div class="col-lg-4">
+	  										<img class="faces" src="img/faces/f9.jpg">
+	  										<h2>Patrick</h2>
+	  										<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+	  									</div><!-- /.col-lg-4 -->
+	  								</div><!-- /.row -->
+	  							</div>
+	  						</div>
+	  						<div class="carousel-item">
+	  							<div class="container">
+	  								<div class="row">
+	  									<div class="col-lg-4">
+	  										<img class="faces" src="img/faces/f5.jpg">
+	  										<h2>Molly</h2>
+	  										<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+	  									</div><!-- /.col-lg-4 -->
+	  									<div class="col-lg-4">
+	  										<img class="faces" src="img/faces/f1.jpg">
+	  										<h2>Alejandro</h2>
+	  										<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+	  									</div><!-- /.col-lg-4 -->
+	  									<div class="col-lg-4">
+	  										<img class="faces" src="img/faces/f8.jpg">
+	  										<h2>Alex</h2>
+	  										<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+	  									</div><!-- /.col-lg-4 -->
+	  								</div><!-- /.row -->
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+				</section>
+
+	  				<hr class="featurette-divider">
+
+	  			<section>
+	  				<div class="row featurette">
+	  					<div class="col-md-7">
+	  						<h2 class="featurette-heading top"><span>What do I need?</span></h2><h3 class="top"><span class="text-muted">Visa Requirements.</span></h3>
+	  						<h3 class="left"><span class="text-red">Learn about visa applications.</span></h3>
+	  						<p class="lead bottom">Visa requirements for China can be strict are subject to change every few years. Currently, for those intending to work in China or Hong Kong a work visa (Z-visa) is required...</p>
+	  						<a class="btn btn-lg btn-success bottom-delay" href="Teach-China.html" role="button">How to get a work visa</a>
+	  					</div>
+	  					<div class="col-md-5 right">
+	  						<img src="img/travel1.jpg">
+	  					</div>
+	  				</div>
+
+	  				<hr class="featurette-divider invisible">
+
+	  				<!-- 3 column links -->
+	  				<div class="row bottom-reveal">
+	  					<div class="col-lg-4 left">
+	  						<img class="w300" src="img/links/success5.jpg">
+	  						<h3>Find a job</h3>
+	  						<p></p>
+	  						<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+	  					</div><!-- /.col-lg-4 -->
+	  					<div class="col-lg-4 bottom">
+	  						<img class="w300" src="img/links/male-teacher.jpg">
+	  						<h3>Learn to teach ESL</h3>
+	  						<p></p>
+	  						<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+	  					</div><!-- /.col-lg-4 -->
+	  					<div class="col-lg-4 right">
+	  						<img class="w300" src="img/links/palace3.jpg">
+	  						<h3>Where to go in China</h3>
+	  						<p></p>
+	  						<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+	  					</div><!-- /.col-lg-4 -->
+	  				</div><!-- /.row -->
+	  			</section>
+	  			<!-- /END THE FEATURETTES -->
+	  		</div>
+
+	  		<section id="footer">
+	  			<footer class="container py-5">
+	  				<div class="row">
+	  					<div class="col-12 col-md">
+	  						<img class="footer-logo" src="img/panda-logo.png">
+	  						<small class="d-block mb-3 text-dark">The Pandas Guide</small> 
+	  						<small class="d-block mb-3 text-dark">&copy; 2017-2019</small> 
+	  					</div>
+	  						<div class="col-6 col-md">
+	  							<h5>Features</h5>
+	  							<ul class="list-unstyled text-small">
+	  								<li><a class="text-dark" href="#">Cool stuff</a></li>
+	  								<li><a class="text-dark" href="#">Random feature</a></li>
+	  								<li><a class="text-dark" href="#">Team feature</a></li>
+	  								<li><a class="text-dark" href="#">Stuff for developers</a></li>
+	  								<li><a class="text-dark" href="#">Another one</a></li>
+	  								<li><a class="text-dark" href="#">Last time</a></li>
+	  							</ul>
+	  						</div>
+	  						<div class="col-6 col-md">
+	  							<h5>Resources</h5>
+	  							<ul class="list-unstyled text-small">
+	  								<li><a class="text-dark" href="#">Resource</a></li>
+	  								<li><a class="text-dark" href="#">Resource name</a></li>
+	  								<li><a class="text-dark" href="#">Another resource</a></li>
+	  								<li><a class="text-dark" href="#">Final resource</a></li>
+	  							</ul>
+	  						</div>
+	  						<div class="col-6 col-md">
+	  							<h5>Resources</h5>
+	  							<ul class="list-unstyled text-small">
+	  								<li><a class="text-dark" href="#">Business</a></li>
+	  								<li><a class="text-dark" href="#">Education</a></li>
+	  								<li><a class="text-dark" href="#">Government</a></li>
+	  								<li><a class="text-dark" href="#">Gaming</a></li>
+	  							</ul>
+	  						</div>
+	  						<div class="col-6 col-md">
+	  							<h5>About</h5>
+	  							<ul class="list-unstyled text-small">
+	  								<li><a class="text-dark" href="#">Team</a></li>
+	  								<li><a class="text-dark" href="#">Locations</a></li>
+	  								<li><a class="text-dark" href="#">Privacy</a></li>
+	  								<li><a class="text-dark" href="#">Terms</a></li>
+	  							</ul>
+	  						</div>
+	  					</div>
+	  				</footer>
+	  			</section>
+
+	  			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	  			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	  			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	  			
+	  			<script>
+	  				//window.sr = new ScrollReveal({ mobile: false });
+	  				window.sr = ScrollReveal();
+	  				sr.reveal('.navbar-brand', {
+	  					scale: 1.1,
+	  					duration: 700,
+	  					delay: 1300,
+	  					origin: 'right',
+	  					distance: '500px'
+	  				});
+	  				sr.reveal('.nav-logo', {
+	  					duration: 500,
+	  					delay: 1300,
+	  					origin: 'left',
+	  					distance: '50px'
+	  				});
+	  				//sr.reveal('.nav-1', {
+	  				//	duration: 500,
+	  				//	delay: 2800,
+	  				//	origin: 'top',
+	  				//	distance: '35px'
+	  				//});
+	  				//sr.reveal('.nav-2', {
+	  				//	duration: 500,
+	  				//	delay: 2900,
+	  				//	origin: 'top',
+	  				//	distance: '35px'
+	  				//});
+	  				//sr.reveal('.nav-3', {
+	  				//	duration: 500,
+	  				//	delay: 3100,
+	  				//	origin: 'top',
+	  				//	distance: '35px'
+	  				//});
+	  				//sr.reveal('.nav-4', {
+	  				//	duration: 500,
+	  				//	delay: 3300,
+	  				//	origin: 'top',
+	  				//	distance: '35px'
+	  				//});
+
+	  				//sr.reveal('.nav-5', {
+	  				//	duration: 500,
+	  				//	delay: 3500,
+	  				//	origin: 'top',
+	  				//	distance: '35px'
+	  				//});
+	  				//sr.reveal('.nav-6', {
+	  				//	duration: 500,
+	  				//	delay: 3700,
+	  				//	origin: 'top',
+	  				//	distance: '35px'
+	  				//});
+	  				sr.reveal('.text-down', {
+	  					duration: 1000,
+	  					scale: 1,
+	  					origin: 'top',
+	  					distance: '700px'
+	  				});
+	  				sr.reveal('.text-up', {
+	  					duration: 500,
+	  					delay: 500,
+	  					origin: 'bottom',
+	  					distance: '150px'
+	  				});
+	  				sr.reveal('.info-right', {
+	  					duration: 2000,
+	  					origin: 'right',
+	  					distance: '300px'
+	  				});
+	  				sr.reveal('.left', {
+	  					duration: 1000,
+	  					origin: 'left',
+	  					distance: '50px',
+	  					delay: 300
+	  				});
+	  				sr.reveal('.left-delay', {
+	  					duration: 200,
+	  					origin: 'left',
+	  					distance: '50px',
+	  					delay: 700
+	  				});
+	  				sr.reveal('.right', {
+	  					duration: 1000,
+	  					origin: 'right',
+	  					distance: '50px',
+	  					delay: 300
+	  				});
+	  				sr.reveal('.bottom-reveal', {
+	  					duration: 1000,
+	  					origin: 'bottom',
+	  					distance: '100px',
+	  					delay: 0
+	  				});
+	  				sr.reveal('.bottom-reveal-slow', {
+	  					duration: 1500,
+	  					origin: 'bottom',
+	  					distance: '100px',
+	  					delay: 0
+	  				});
+	  				sr.reveal('.bottom', {
+	  					duration: 1000,
+	  					origin: 'bottom',
+	  					distance: '100px',
+	  					delay: 0
+	  				});
+	  				sr.reveal('.bottom-delay', {
+	  					duration: 500,
+	  					origin: 'bottom',
+	  					distance: '100px',
+	  					delay: 300
+	  				});
+	  				sr.reveal('.bottom-delay500', {
+	  					duration: 1000,
+	  					origin: 'bottom',
+	  					distance: '100px',
+	  					delay: 500
+	  				});
+	  				sr.reveal('.top', {
+	  					duration: 1000,
+	  					origin: 'top',
+	  					distance: '100px',
+	  					viewFactor: 0.2
+	  				});
+	  				sr.reveal('#contact-message img', {
+	  					duration: 3000,
+	  					origin: 'bottom',
+	  					distance: '10px',
+	  					viewFactor: 0.2
+	  				});
+	  			</script>
+	</body>
+</html>
